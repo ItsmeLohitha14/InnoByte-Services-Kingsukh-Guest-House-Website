@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-title">Kingsukh Guest House Booking</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter Phone Number" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="checkInDate">Check-in Date</label>
+                    <input type="date" id="checkInDate" name="checkInDate" placeholder="Check-in Date" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="checkOutDate">Check-out Date</label>
+                    <input type="date" id="checkOutDate" name="checkOutDate" placeholder="Check-out Date" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="rooms">Number of Rooms</label>
+                    <input type="number" id="rooms" name="rooms" placeholder="Number of Rooms" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" name="guests" placeholder="Number of Guests" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="roomType">Room Type</label>
+                    <select id="roomType" name="roomType">
+                        <option value="standard">Standard</option>
+                        <option value="deluxe">Deluxe</option>
+                        <option value="suite">Suite</option>
+                    </select>
+                </div>
+                <div class="user-input-box">
+                    <label for="paymentMode">Payment Mode</label>
+                    <select id="paymentMode" name="paymentMode">
+                        <option value="creditCard">Credit Card</option>
+                        <option value="debitCard">Debit Card</option>
+                        <option value="netBanking">Net Banking</option>
+                        <option value="cash">Cash</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-submit-btn">
+                <input type="submit" value="Book Now">
+            </div>
+
+            <a href="index.html" class="backtohome">Back to Home</a>
+        </form>
+    </div>
+</body>
+</html>
